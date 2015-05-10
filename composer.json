@@ -1,0 +1,57 @@
+{
+	"name":"respinar/contao_grid_rtl",
+	"description":"Adds an responsive 16-column pixel/percental grid with 1120px/1140px in the layout css-framework.",
+	"keywords":["contao","grid","responsive"],
+	"type":"contao-module",
+	"homepage":"http://contao.ninja",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Glen Langer",
+			"homepage":"http://contao.ninja",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"issues":"https://github.com/BugBuster1701/contao_grid_16_columns/issues",
+		"irc":"irc://irc.freenode.org/contao.dev",
+		"source":"https://github.com/BugBuster1701/contao_grid_16_columns",
+		"forum":"https://community.contao.org/de/forumdisplay.php?119-Sonstige-Erweiterungen"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core":">=3.3,<4",
+		"contao-community-alliance/composer-plugin": "*"
+	},
+	"autoload":{
+		"classmap":[""]
+	},
+	"replace":{
+		"contao-legacy/grid_16_columns":"*"
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"system/modules/grid_16_columns": "system/modules/grid_16_columns",
+				"assets/contao/css/grid-1120-16-pixel-responsive-uncompressed.css": "assets/contao/css/grid-1120-16-pixel-responsive-uncompressed.css",
+				"assets/contao/css/grid-1120-16-pixel-responsive.css": "assets/contao/css/grid-1120-16-pixel-responsive.css",
+				"assets/contao/css/grid-1120-16-pixel-uncompressed.css": "assets/contao/css/grid-1120-16-pixel-uncompressed.css",
+				"assets/contao/css/grid-1120-16-pixel.css": "assets/contao/css/grid-1120-16-pixel.css",
+				"assets/contao/css/grid-1140-16-percent-responsive-uncompressed.css": "assets/contao/css/grid-1140-16-percent-responsive-uncompressed.css",
+				"assets/contao/css/grid-1140-16-percent-responsive.css": "assets/contao/css/grid-1140-16-percent-responsive.css",
+				"assets/contao/css/grid-1140-16-percent-uncompressed.css": "assets/contao/css/grid-1140-16-percent-uncompressed.css",
+				"assets/contao/css/grid-1140-16-percent.css": "assets/contao/css/grid-1140-16-percent.css",
+				"system/bin/minify16":"system/bin/minify16"
+			},
+			"transifex": {
+				"project": "contao-grid_16_columns",
+				"prefix": "master-",
+				"languages_cto": "system/modules/grid_16_columns/languages",
+				"languages_tx": ".tx"
+			},
+			"runonce":[
+				"system/modules/grid_16_columns/runonce/runonce.php"
+			]
+		}
+	}
+}
