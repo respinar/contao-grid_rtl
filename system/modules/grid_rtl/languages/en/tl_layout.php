@@ -12,5 +12,5 @@
  */
 
 
-$GLOBALS['TL_LANG']['tl_layout']['grid_rtl.css']['css']['0']   = '12-column grid (RTL)';
-$GLOBALS['TL_LANG']['tl_layout']['grid_rtl.css']['css']['1']   = 'Adds an RTL responsive 12-column grid that is triggered by the CSS classes "grid1" to "grid12" and "offset1" to "offset12".';
+$GLOBALS['TL_LANG']['tl_layout']['grid_rtl.css']['0']   = '12-column grid (RTL)';
+$GLOBALS['TL_LANG']['tl_layout']['grid_rtl.css']['1']   = 'Adds an RTL responsive 12-column grid that is triggered by the CSS classes "grid1" to "grid12" and "offset1" to "offset12".';
