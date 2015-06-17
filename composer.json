@@ -3,12 +3,12 @@
 	"description":"Adds an responsive 12-column pixel grid with 960pxx in the layout css-framework.",
 	"keywords":["contao","grid","responsive","rtl"],
 	"type":"contao-module",
-	"homepage":"http://respinar.org",
-	"license":"GPL-3.0",
+	"homepage":"https://github.com/respinar/contao-grid_rtl",
+	"license":"LGPL-3.0+",
 	"authors":[
 		{
 			"name":"Hamid Abbaszadeh",
-			"homepage":"http://respinar.org",
+			"homepage":"http://respinar.com",
 			"role":"Developer"
 		}
 	],
