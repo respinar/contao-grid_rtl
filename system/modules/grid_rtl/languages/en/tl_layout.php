@@ -1,16 +1,14 @@
 <?php
 /**
- * Translations are managed using Transifex. To create a new translation
- * or to help to maintain an existing one, please register at transifex.com.
+ * Contao Open Source CMS
  *
- * @link http://help.transifex.com/intro/translating.html
- * @link https://www.transifex.com/projects/p/contao-grid_16_columns/language/en/
+ * Copyright (c) 2005-2015 Leo Feyer
  *
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
- *
- * last-updated: 2014-06-08T22:51:20+02:00
+ * @package   grid_rtl
+ * @author    Hamid Abbaszadeh
+ * @license   LGPL-3.0+
+ * @copyright respinar 2014-2015
  */
 
 
-$GLOBALS['TL_LANG']['tl_layout']['grid_rtl.css']['0']   = '12-column grid (RTL)';
-$GLOBALS['TL_LANG']['tl_layout']['grid_rtl.css']['1']   = 'Adds an RTL responsive 12-column grid that is triggered by the CSS classes "grid1" to "grid12" and "offset1" to "offset12".';
+$GLOBALS['TL_LANG']['tl_layout']['grid_rtl.css'] = array('12-column grid (RTL)','Adds an RTL responsive 12-column grid that is triggered by the CSS classes "grid1" to "grid12" and "offset1" to "offset12".');

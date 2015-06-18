@@ -1,16 +1,14 @@
 <?php
 /**
- * Translations are managed using Transifex. To create a new translation
- * or to help to maintain an existing one, please register at transifex.com.
+ * Contao Open Source CMS
  *
- * @link http://help.transifex.com/intro/translating.html
- * @link https://www.transifex.com/projects/p/contao-grid_16_columns/language/en/
+ * Copyright (c) 2005-2015 Leo Feyer
  *
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
- *
- * last-updated: 2014-06-08T22:51:20+02:00
+ * @package   grid_rtl
+ * @author    Hamid Abbaszadeh
+ * @license   LGPL-3.0+
+ * @copyright respinar 2014-2015
  */
 
 
-$GLOBALS['TL_LANG']['MOD']['grid_rtl']['0'] = 'Contao Grid RTL';
-$GLOBALS['TL_LANG']['MOD']['grid_rtl']['1'] = 'Contao grid with 16 columns';
+$GLOBALS['TL_LANG']['MOD']['grid_rtl'] = array('Contao Grid RTL','Contao grid with 12 columns');
