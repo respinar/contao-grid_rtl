@@ -11,4 +11,4 @@
  */
 
 
-$GLOBALS['TL_LANG']['MOD']['grid_rtl'] = array('Contao Grid RTL','Contao grid with 12 columns');
+$GLOBALS['TL_LANG']['MOD']['grid_rtl'] = array('Contao RTL Grid','Contao RTL grid with 12 columns');
