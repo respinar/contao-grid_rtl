@@ -21,9 +21,6 @@
 		"contao/core":">=3.2,<4",
 		"contao-community-alliance/composer-plugin": "~2.0"
 	},
-	"autoload":{
-		"classmap":[""]
-	},
 	"extra":{
 		"contao":{
 			"sources":{
@@ -32,7 +29,7 @@
 				"assets/contao/css/grid_rtl.css": "assets/contao/css/grid_rtl.css"
 			},
 			"transifex": {
-				"project": "contao-grid_rtl",
+				"project": "contao-grid-rtl",
 				"prefix": "master-",
 				"languages_cto": "system/modules/grid_rtl/languages",
 				"languages_tx": ".tx"
