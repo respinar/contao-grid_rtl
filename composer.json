@@ -26,7 +26,9 @@
 			"sources":{
 				"system/modules/grid_rtl": "system/modules/grid_rtl",
 				"assets/contao/css/grid_rtl-uncompressed.css": "assets/contao/css/grid_rtl-uncompressed.css",
-				"assets/contao/css/grid_rtl.css": "assets/contao/css/grid_rtl.css"
+				"assets/contao/css/grid_rtl.css": "assets/contao/css/grid_rtl.css",
+				"assets/contao/css/grid_rtl-uncompressed.css": "assets/contao/css/layout_rtl-uncompressed.css",
+				"assets/contao/css/grid_rtl.css": "assets/contao/css/layout_rtl.css"
 			},
 			"transifex": {
 				"project": "contao-grid-rtl",
