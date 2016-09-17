@@ -50,10 +50,10 @@ select,input,textarea {
 	width:100%;
 }
 #left {
-	margin-right:-100%;
+	margin-left:-100%;
 }
 #right {
-	margin-left:-100%;
+	margin-right:-100%;
 }
 #footer {
 	clear:both;
