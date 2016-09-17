@@ -1,7 +1,7 @@
 /**
  * Contao Open Source CMS
  *
- * Copyleft (c) 2005-2015 Leo Feyer
+ * Copyright (c) 2005-2016 Leo Feyer
  *
  * @license LGPL-3.0+
  */
@@ -19,8 +19,8 @@
  */
 *[class*="grid"] {
 	float:right;
-	margin-right:10px;
 	margin-left:10px;
+	margin-right:10px;
 	display:inline;
 }
 
@@ -29,8 +29,8 @@
  * ones (otherwise you would have to add "grid12" to every element)
  */
 .mod_article *[class*="ce_"],.mod_article *[class*="mod_"] {
-	margin-right:10px;
 	margin-left:10px;
+	margin-right:10px;
 }
 
 /**
@@ -38,12 +38,12 @@
  * contain content elements themselves (see #5331)
  */
 .mod_article .mod_newsreader,.mod_article .mod_eventreader {
-	margin-right:0;
 	margin-left:0;
+	margin-right:0;
 }
 .mod_article *[class*="layout_"] > *,.mod_article *[class*="event_"] > * {
-	margin-right:10px;
 	margin-left:10px;
+	margin-right:10px;
 }
 
 /**
@@ -52,8 +52,8 @@
  */
 .mod_article.grid1,.mod_article.grid2,.mod_article.grid3,.mod_article.grid4,.mod_article.grid5,.mod_article.grid6,
 .mod_article.grid7,.mod_article.grid8,.mod_article.grid9,.mod_article.grid10,.mod_article.grid11,.mod_article.grid12 {
-	margin-right:0;
 	margin-left:0;
+	margin-right:0;
 }
 
 /**
