@@ -68,8 +68,7 @@ class GridRTLDca extends \BackendModule
     	if ($strName == 'tl_layout')
     	{
     		// Add the new css files
-    		array_push($GLOBALS['TL_DCA']['tl_layout']['fields']['framework']['options'], 'grid_rtl.css');
-            array_push($GLOBALS['TL_DCA']['tl_layout']['fields']['framework']['options'], 'layout_rtl.css');
+    		array_push($GLOBALS['TL_DCA']['tl_layout']['fields']['framework']['options'], 'layout_rtl.css','grid_rtl.css');            
     	}
     }
 
